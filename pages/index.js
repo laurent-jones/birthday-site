@@ -12,6 +12,7 @@ export default function Index() {
             <li><a href='/ellie'>ellie</a></li>
             <li><a href='/moe'>moe</a></li>
             <li><a href='/sam'>sam</a></li>
+            <li><a href='/francesco'>francesco</a></li>
             <li><a href='/happy-birthday-jen.html'>and all your friends at trainline!</a></li>
           </ul>
         </div>

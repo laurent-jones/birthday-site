@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(175, 162, 255, 1);
+  animation: bg 15s infinite;
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎂</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+@keyframes bg {
+  0%  {background-color: rgba(175, 162, 255, 1);}
+  20% {background-color: rgba(194, 231, 218, 1);}
+  40% {background-color: rgba(241, 255, 231, 1);}
+  60% {background-color: rgba(122, 137, 194, 1);}
+  80% {background-color: rgba(114, 120, 141, 1);}
+}
+img {
+  width: 300px;
+  transition: transform 0.15s ease-in-out, color 0.15s ease-in-out,
+  background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+  box-shadow 0.15s ease-in-out;
+}
+img:hover {
+  transform: scale(0.9);
+}
+p {
+  color: white;
+  font-family: Lato;
+  text-align: center;
+}

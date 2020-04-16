@@ -8,6 +8,7 @@ export default function Index() {
           <ul>
             <li><a href='/artur'>artur</a></li>
             <li><a href='/drew'>drew</a></li>
+            <li><a href='/kuldeep'>kuldeep</a></li>
             <li><a href='/happy-birthday-jen.html'>sam</a></li>
           </ul>
         </div>

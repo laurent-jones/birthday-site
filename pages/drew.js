@@ -6,9 +6,10 @@ export default function Index() {
         fontSize: "80px",
         textAlign: "center",
         display: "grid",
+        fontFamily: `"Comic Sans MS", cursive, sans-serif`,
       }}
     >
-      <h1 style={{ width: "100%", fontSize: "180px", textAlign: "center" }}>
+      <h1 style={{ width: "100%", fontSize: "130px", textAlign: "center" }}>
         <span class="letter">H</span>
         <span class="letter">A</span>
         <span class="letter">P</span>
@@ -27,7 +28,7 @@ export default function Index() {
       <span class="letter">
         Hope you have a fab day and an even better year!
       </span>
-      <span class="letter">✌️ Drew</span>
+      <span class="letter">✌️ drew</span>
       <script src="/drew.js"></script>
     </div>
   );

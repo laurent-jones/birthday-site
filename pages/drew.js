@@ -10,7 +10,7 @@ body {
   position: absolute;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  width: 400px;
+  width: 176px;
   height: 176px;
   color: #fff;
 }

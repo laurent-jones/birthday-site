@@ -1,11 +1,14 @@
-const getRandomColor = () => {
-  var letters = "0123456789ABCDEF";
-  var color = "#";
-  for (var i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-};
+function getRandomColor() {
+  return (
+    "hsl(" +
+    360 * Math.random() +
+    "," +
+    (55 + 70 * Math.random()) +
+    "%," +
+    (55 + 10 * Math.random()) +
+    "%)"
+  );
+}
 
 const magic = () => {
   Array(...document.getElementsByClassName("letter")).forEach((el) =>
@@ -82,9 +85,6 @@ window.addEventListener(
 function init() {
   request = requestAnimationFrame(init);
   move();
-  // setInterval(function() {
-  //   move();
-  // }, 16.66);
 }
 
 // reset constraints

@@ -7,6 +7,7 @@ export default function Index() {
           <div style={{textAlign: 'center'}}>From:</div>
           <ul>
             <li><a href='/artur'>artur</a></li>
+            <li><a href='/drew'>drew</a></li>
             <li><a href='/happy-birthday-jen.html'>sam</a></li>
           </ul>
         </div>
